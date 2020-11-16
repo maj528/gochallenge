@@ -19,6 +19,9 @@ Then visit:
 ***
 
 ## API endpoints
+
+### GET /
+`returns some information about me`
 ### GET /customers
 `returns all customers `
 ### POST /customers
