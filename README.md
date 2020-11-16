@@ -2,6 +2,10 @@
 ## About
 In this challenge I focused on learning about parsing CSV files into an API format. 
 
+## Built using
+* [github.com/gorilla/mux](github.com/gorilla/mux) for the routes
+* [github.com/nu7hatch/gouuid](github.com/nu7hatch/gouuid) for generating the UUIDs
+
 ## Installation and Tests
 In order to host the API:
 1. Clone the repository
