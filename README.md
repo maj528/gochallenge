@@ -38,4 +38,4 @@ Although this was not my first time dealing with APIs, it was my first proper pr
 
 * Set up authentication for get requests API
 * Sort API response 
-* Learn how to structure a go project with imports, etc. -->
+* Learn how to structure a go project with imports, etc.
