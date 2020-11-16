@@ -18,7 +18,8 @@ func CreateCustomer(w http.ResponseWriter, r *http.Request) {
 	if customer.Name == "" || customer.Email == "" || customer.Text == "" {
 		w.WriteHeader(http.StatusInternalServerError)
 		w.Write([]byte("500 - Requests did not include required info"))
+	} else {
+		json.NewEncoder(w).Encode(customer)
+		Customers = append(Customers, customer)
 	}
-	json.NewEncoder(w).Encode(customer)
-	Customers = append(Customers, customer)
 }
