@@ -14,7 +14,7 @@ In order to host the API:
 4. `./gochallenge`
 
 Then visit: 
-[http://localhost:8000/users](http://localhost:8000/users)
+[http://localhost:8000/customers](http://localhost:8000/customers)
 
 ***
 
